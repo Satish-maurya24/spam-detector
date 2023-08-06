@@ -12,7 +12,7 @@ model = pkl.load(open("model.pkl" , 'rb'))
 
 
 
-st.title("Spam-detector")
+st.title("SMS-Spam-detector")
 
 input_message = st.text_area("enter the message")
 
